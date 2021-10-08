@@ -90,10 +90,13 @@
            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
       </head>  
+      
+      
      <body>  
+          
            <br />  
            <div class="container" style="width:500px;">  
-                <h3 align=""> <b> REGISTRATION FORM  </b></h3><br />                 
+                <fieldset><legend><h3 align=""> <b> REGISTRATION FORM  </b></h3><br />  </legend> <fieldset>              
                 <form method="post">  
                     
                    <div>
@@ -192,9 +195,10 @@
                    
                            <hr>
                     </div> 
+                   
                            
                           <div> 
-                          <label>Date Of Birth <span style="color: rgb(255, 255, 255);"> ************ </span> : </label>  
+                         <label>Date Of Birth <span style="color: rgb(255, 255, 255);"> ************ </span> : </label>  
                      <input type="date" name="dateofbirth" id="dateofbirth" ><br/> 
                           
                           <?php
@@ -204,9 +208,9 @@
                      }  
                      ?>  </span>   
                          <hr>
-                    </div> 
+                    </div>  
                           
-                          
+          
                      <input type="submit" name="submit" value="Submit" class="btn btn-info" /> <input type="reset" value="Reset" class="btn btn-info" /> <br>                      
                      <?php  
                           
@@ -219,5 +223,8 @@
            </div>  
              
            <br />  
-      </body>  
+      
+      
+     </body>  
+     
  </html>  

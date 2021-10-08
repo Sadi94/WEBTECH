@@ -54,7 +54,7 @@
 					
                     if(strlen($password)<= '8')
 		            {
-                       $passwordErr = "Password must not be less than 8 char and ";
+                       $passwordErr = "Password must not be less than 8 char ";
                     }
 
 					
@@ -100,7 +100,10 @@
                 <hr>
                 <input type="checkbox" name="Remember me"> Remember Me <br><br>
 
-                <input type="submit" name="submit" value="Submit"> <a href="http://">Forgot Password?</a>
+                <input type="submit" name="submit" value="Submit" echo $Login Successful;  > <a href="http://">Forgot Password?</a><br>
+
+             
+                    
              </div>
  		
          </form> <br>
