@@ -57,7 +57,7 @@
      else
 	 {
        $currentPassword = test_input($_POST["currentPassword"]);
-       if (strcmp($currentPassword,"nusratjahan"))
+       if (strcmp($currentPassword,"abc@1234"))
 		{
           $cpasswordError= "Incorrent password!";
         }     
@@ -71,7 +71,7 @@
 		{
          $newpassword = test_input($_POST["newpassword"]);
 
-          if (!strcmp($newpassword,"nusratjahan"))
+          if (!strcmp($newpassword,"abc@1234"))
 		   {
              $npasswordError = "Current and New password can't be same!";
            }  
